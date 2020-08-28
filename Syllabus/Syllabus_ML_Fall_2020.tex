@@ -1,0 +1,325 @@
+
+
+% Document settings
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\usepackage{color}
+\usepackage[utf8x]{inputenc}
+\pagestyle{plain}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+% Course information
+\begin{tabular}{ l l }
+  \multirow{3}{*}{\includegraphics[height=1in,width=1in]{sais-logo.jpg}}  & \LARGE AS.440.625.81 \\\\
+  & \LARGE  Machine Learning in Statistics \\\\
+  & \LARGE The class is conducted online \\\\
+\end{tabular}
+\vspace{10mm}
+
+
+% Professor information
+\begin{tabular}{ l l }
+  \multirow{3}{*}{\includegraphics[height=1in,width=1in]{ilya_pic.jpg}}  & \large Professor \\\\
+  & \large Ilya Rahkovsky \\\\
+  & \large irahkov1@jhu.edu \\\\
+\end{tabular}
+\vspace{10mm}
+
+%  TA
+\begin{tabular}{ l l }
+  \multirow{3}{*}{\includegraphics[height=1in,width=1in]{LinkedIn_Profile_Pic_3.png}}  & \large Teaching Assistant \\\\
+  & \large Mark Bentley \\\\
+  & \large mbentle6@jh.edu \\\\
+\end{tabular}
+
+
+
+\vspace{5mm}
+\begin{center} A Syllabus may change during the semester. In case of change, the students will be promptly notified and the updated version of syllabus will uploaded to the blackboard.   \\
+\end{center}
+
+
+
+% Course details
+\textbf{\large \\ Course Description:} This course focuses on the use of machine learning methods for in-sample and out-of-sample prediction. The topics include regression, classification, random trees (forests, boosting, and pruning), regularization, neural networks, support vector machines, model selection and ensemble learning. Prerequisite 440.606 Econometrics.
+
+\textbf{\large \\ Learning Objectives:} \\
+1. Being comfortable using \textbf{Python} to perform a variety of Machine Learning procedures. \\
+2. Learn basic concepts of ML: bias-variance trade-off, model selection, validation, and testing.  \\
+3. Learn common ML models: regression, classification, Support vector machines, decision trees, neural networks.\\
+\\
+ {\large Text(s):} \emph{Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems}, 2\textsuperscript{st} Edition \\\\
+ {Author(s):} Aurélien Géron \\\\
+  \textbf {ISBN-13:}  978-1492032649 \\\\
+
+% I recommend using \newpage here if necessary
+\textbf {\large Grade Distribution:} \\
+\hspace*{40mm}
+\begin{tabular}{ l l }
+Midterm Exam & 24\% \\
+Final Exam & 32\% \\
+Homework & 44\% \\
+\end{tabular} \\\\
+
+\textbf {\large Letter Grade Distribution:} \\\\
+\hspace*{40mm}
+\begin{tabular}{ l l | l l }
+\textgreater= greater than 93 - 100 & A & 78 - 82 & B  \\
+                      88 - 92 & A-  & 70 - 77  & B-  \\
+                     83 - 87  & B+  & 0 - 70 & C \\
+\end{tabular} \\
+\newpage
+% Course Policies. These are just examples, modify to your liking.
+\textbf {\large Course Policies:}
+\begin{itemize}
+	\item \textbf {General}
+		\begin{itemize}
+\item {\color{red} Important!} The best way of communiciation is Blackboard forum. You can get quick answers there either from a teaching assistant (Mark Bentley) or from your professor (Ilya Rahkovsky). If you want to ask a private question please use our emails. Feel free to send email to both your profesor and TA to maximize the speed of responce. There is a significant positive correlation between frequency of communications and grade. You don't want to lose points because your misunderstood the assignment or lecture concepts. Please contact me to clear it up.
+			%\item Computers are not to be used unless instructed to do so.
+			\item Exams are open book, notes performed on a personal laptop.
+			\item Problem sets are posted on Blackboard on every Tuesday and are due the following Tuesday at 11:59 PM EST.
+            \item Late assignment submissions are not accepted.
+\item For each assignment the students should upload two files to Blackboard:
+		\begin{itemize}
+        \item A file with written calculations or iPython code/Google Colab. The HW and exams need to be solved in Python unless specified otherwise. Please mark your answers clearly in the code, for example: The answer to each question should be clearly written like: "The answer for Question 4a is 0.5". 
+        \item A document with final answers in Excel, Word or PDF. For example: \newline
+        \texttt{accuracy = 5} \newline
+        \texttt{print(f'Answer for the question 5A. The estimates accuracy is {accuracy}'}
+        Problem 1, part a. precision = 0.84, recall = 0.44 \\
+        Problem 1, part b. Evidence of model X outfitting because of low ROC statistics on the validation data   \\
+  \end{itemize}
+		\item  Students can discuss class material, but they must work \ref{independently} on all assignments. Significant correlations in answers of any two students will be investigated by the instructor and often will result in a punishment of all students submitting identical or very similar answers. 
+		\end{itemize}
+\end{itemize}
+
+% College Policies
+\textbf{What To Expect in this Course} \\
+This course is 14 weeks in length and includes individual, group, and whole group activities in a weekly cycle of instruction. Each week begins on a Tuesday and ends on the following Tuesday. Please review the course syllabus thoroughly to learn about specific course outcomes and requirements. Be sure to refer to the Checklist each week, which provides a week-at-a-glance and shows targeted dates for the completion of activities. \\
+\textbf{Course Policies} \\
+\emph{Grading} The instructor will aim to return assignments to you within 5-7 days following the due date, depending on the length of the assignment. You will receive feedback under the My Grades link on the left hand menu of your course.\\
+\emph{Participation Requirements} \\
+You are expected to log into Blackboard regularly throughout the week. It is your responsibility to read all announcements and discussion postings within your assigned forums. You should revisit the discussion multiple times over the week to contribute to the dialogue. \\
+\emph{Online Etiquette} \\
+In this course, online discussion will primarily take place in our online discussion board.  In all textual online communication, it is important to follow proper rules of online etiquette... communicating with others in a proper and respectful way. For helpful tips, please these Ground Rules for Online Discussions. \\
+\emph{Course Protocols and Getting Help}
+Amendments to the Course \\
+Changes to the course will be posted in the Announcements section of your course. Please check announcements every time that you log into your online course. \\
+\emph{Course Communication} \\
+You should communicate often with your classmates and the instructor. The majority of communication will take place within the Discussion forums. When you have a question about an assignment or a question about the course, please contact your instructor, or post your question in the course’s “Syllabus \& Assignment Question” forum. \\
+\emph{Email Communication} \\
+For questions regarding course activities and assignments that would be general interest to other students, please post those in the Discussion forum.  If you have a question regarding course activities and assignments of a personal nature, please send an email message to the instructor and observe the following guidelines: \\
+Include the title of the course in the subject field (e.g., JHU Insert Name of Course). \\
+
+Feel free to contact your instructor with comments, questions, and concerns. All email messages will be sent to you via your JHU email account, so you should be in the habit of checking that account every day or you should ensure that your JHU email account forwards messages to another account of your choice. \\
+
+
+\newpage
+
+% Course Outline
+\textbf {\large Tentative Course Outline}:
+The weekly coverage might change as it depends on the progress of the class.  However, you must keep up with the reading assignments.
+\begin{table}[h!]
+\normalsize % The size of the table text can be changed depending on content. Remove if desired.
+\begin{tabular}{ | c | c | }
+\hline
+\textbf{Week} & \textbf{Content} \\
+\hline
+Week 1, September 1 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Python
+	\item Assignment: Learn Python
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 2, September 8 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item  Introduction to ML, Regression
+    \item Chapter 1-2
+	\item Assignment: HW1 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 3, September 15 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Classification and Training Models
+	\item Assignment: Chapter 3, HW2 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 4, September 22 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Training ML models
+	\item Assignment: Chapter 4, HW3 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 5, September 29 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Support Vector Machines
+	\item Assignment: Read Chapter 5, HW4 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 6, October 6  & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Regression Trees and Forests
+	\item Reading assignment: Read Chapter 6-7, HW5 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 7, October 13 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\item Midterm Exam is posted
+    \item No Lecture
+	\item HW6 is due
+\end{itemize}
+\end{minipage} \\
+\hline
+
+
+Week 8, October 20 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Dimensionality Reduction and Unsupervised Learning
+	\item Reading assignment: Read Chapters 8-9, 
+	\item Midterm Exam is due.
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+
+Week 9, October 27 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+    \item  HW 7 is due
+	\item Neural Networks
+	\item Read Chapter 10
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 10, November 3 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Optimizing Neural Networks
+	\item Read Chapter 11, HW8 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+
+
+Week 11, November 10 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Convolutional Neural Networks
+	\item Read Chapter 15, HW9 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+
+
+Week 12, November 17 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Recurrent Neural Networks and NLP
+    \item Read Chapter 16
+	\item HW10 is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 13, November 24 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Thanksgiving Break
+	\item NO CLASS
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+
+Week 14, December 1 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Reinforcement Learning (extra credit material)
+	\item  HW11 is due
+    \item read chapter 18
+    \item Final Exam is posted
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+
+Week 15, December 8 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Final Exam is due
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+\large \textbf{University Policies} \\
+\emph{General} \\
+This course adheres to all University policies described in the academic catalog. Please pay close attention to the following policies: \\
+\emph{Students with Disabilities}\\
+Johns Hopkins University is committed to providing reasonable and appropriate accommodations to students with disabilities. Students with documented disabilities should contact the coordinator listed on the \href{http://advanced.jhu.edu/current-students/current-students-resources/disability-accommodations/}{Disability Accommodations} page. Further information and a link to the Student Request for Accommodation form can also be found on the \href{http://advanced.jhu.edu/current-students/current-students-resources/disability-accommodations/}{Disability Accommodations} page.  \\
+\emph{Ethics \& Plagiarism} \\
+JHU Ethics Statement: The strength of the university depends on academic and personal integrity. In this course, you must be honest and truthful. Ethical violations include cheating on exams, plagiarism, reuse of assignments, improper use of the Internet and electronic devices, unauthorized collaboration, alteration of graded assignments, forgery and falsification, lying, facilitating academic dishonesty, and unfair competition. Report any violations you witness to the instructor.
+Read and adhere to JHU’s \href{http://advanced.jhu.edu/current-students/policies/notice-on-plagiarism-2/}{Notice on Plagiarism}. \\
+\emph{Dropping the Course} \\
+You are responsible for understanding the university’s policies and procedures regarding withdrawing from courses found in the current catalog. You should be aware of the current deadlines according to the \href{http://advanced.jhu.edu/current-students/academic-calendar/}{Academic Calendar}. \\
+\emph{Getting Help} \\
+You have a variety of methods to get help on Blackboard. Please consult the resource listed in the "Blackboard Help" link for important information. If you encounter technical difficulty in completing or submitting any online assessment, please immediately contact the designated help desk listed on the \href{http://advanced.jhu.edu/academics/online-programs/support/}{AAP online support} page. Also, contact your instructor at the email address listed in the syllabus. \\
+\emph{Copyright Policy} \\
+All course material are the property of JHU and are to be used for the student's individual academic purpose only. Any dissemination, copying, reproducing, modification, displaying, or transmitting of any course material content for any other purpose is prohibited, will be considered misconduct under the \href{https://www.jhu.edu/assets/uploads/2016/11/compliance_policy.pdf}{JHU Copyright Compliance Policy}, and may be cause for disciplinary action. In addition, encouraging academic dishonesty or cheating by distributing information about course materials or assignments which would give an unfair advantage to others may violate \href{http://advanced.jhu.edu/current-students/policies/code-of-conduct/}{AAP’s Code of Conduct} and the University’s \href{https://studentaffairs.jhu.edu/policies-guidelines/student-code}{Student Conduct Code}. Specifically, recordings, course materials, and lecture notes may not be exchanged or distributed for commercial purposes, for compensation, or for any purpose other than use by students enrolled in the class. Other distributions of such materials by students may be deemed to violate the above University policies and be subject to disciplinary action. \\
+\emph{Code of Conduct} \\
+To better support all students, the Johns Hopkins University non-academic \href{http://advanced.jhu.edu/current-students/policies/code-of-conduct/}{Student Conduct Code} has been integrated and updated to include all divisions of the University. In addition, it is important to note that all AAP students are still accountable for the \href{http://advanced.jhu.edu/current-students/policies/code-of-conduct/}{Code of Conduct} for Advanced Academic Programs. \\
+\emph{Title IX}
+Confidentiality and Mandatory Reporting \\
+As an instructor, one of my responsibilities is to help create a safe and inclusive learning environment on our campus. I also have mandatory reporting responsibilities related to my role as a Responsible Employee under the Sexual Misconduct Policy \& Procedures (which prohibits sexual harassment, sexual assault, relationship violence and stalking), as well as the General Anti-Harassment Policy (which prohibits all types of protected status based discrimination and harassment). It is my goal that you feel able to share information related to your life experiences in classroom discussions, in your written work, and in our one-on-one meetings. I will seek to keep information you share private to the greatest extent possible. However, I am required to share information that I learn of regarding sexual misconduct, as well as protected status based harassment and discrimination, with the Office of Institutional Equity (OIE). For a list of individuals/offices who can speak with you confidentially, please see Appendix B of the \href{http://sexualassault.jhu.edu/policies-laws}{JHU Sexual Misconduct Policies and Laws}.\\
+
+For more information on both policies mentioned above, please see: \href{http://oie.jhu.edu/policies-and-laws/jhu-policies/index.html}{JHU Relevant Policies}, Codes, Statements and Principles. Please also note that certain faculty and other University community members also have a duty as a designated Campus Safety Authority under the Clery Act to notify campus security of certain crimes, as well as a duty under State law and University policy to report suspected child abuse and/or neglect. \\
+
+\end{document}
+
+
+
