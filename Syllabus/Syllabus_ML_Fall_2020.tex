@@ -4,6 +4,7 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage[pdftex]{graphicx}
+\usepackage[T1]{fontenc}
 \usepackage{multirow}
 \usepackage{setspace}
 \usepackage{hyperref}
@@ -40,7 +41,7 @@
 
 %  TA
 \begin{tabular}{ l l }
-  \multirow{3}{*}{\includegraphics[height=1in,width=1in]{LinkedIn_Profile_Pic_3.png}}  & \large Teaching Assistant \\\\
+  \multirow{3}{*}{\includegraphics[height=1in,width=1.3in]{LinkedIn_Profile_Pic_3.png}}  & \large Teaching Assistant \\\\
   & \large Mark Bentley \\\\
   & \large mbentle6@jh.edu \\\\
 \end{tabular}
@@ -55,6 +56,40 @@
 
 % Course details
 \textbf{\large \\ Course Description:} This course focuses on the use of machine learning methods for in-sample and out-of-sample prediction. The topics include regression, classification, random trees (forests, boosting, and pruning), regularization, neural networks, support vector machines, model selection and ensemble learning. Prerequisite 440.606 Econometrics.
+
+\textbf{\large \\ Course Access:} The course material is located on \href{https://github.com/Rahkovsky/ml_stat_class}{Github repo}. Please install Github and create Github account on \href{https://github.com}{Github}. Clone the linked repositary and you will see lecture code and HW assignments appear on Github folder. 
+
+There are two ways to run code in the class:
+
+1. Google Colab: \href{https://colab.research.google.com}{https://colab.research.google.com} Go to upload and upload the code file to the Colab and it's ready to run.
+
+Advantages: You don't have to install Python on your PC or worry about Python libraries. You can access your code from multiple computers. Google will make sure the code is able to run in 98% of the cases.
+
+Disadvantages: The code will run 2-7 times slower than on your own PC (the exact difference depends on your computer speed). You will not learn important skills how to use Python on local machine and optimize different versions of Python libraries. 
+
+2. Install Anaconda on your machine from \href{https://www.anaconda.com/products/individual}{Anaconda}
+
+Install package either from \texttt{Mac\_Lin\_requirements.txt} or from \texttt{Win\_requirements.txt} (files are in the Github repos)
+
+To install package you run in terminal:
+
+\texttt{pip install package\_name}
+
+If you move working folder in the terminal to the \texttt{ml\_stat\_class} you run bulk install of all Python libraries:
+
+\texttt{pip install -r Mac\_Lin\_requirements.txt}
+
+Or
+
+\texttt{pip install -r Win\_requirements.txt}
+
+
+
+The homework answers, lecture video and exams are located/will appear in the Lessons folder in Blackboard.
+
+
+
+The class requires a lot of programming on Python, so try to learn it as fast as possible. When you don't know how to code something the easiest solution is to Google your problem or look at \href{https://stackoverflow.com}{https://stackoverflow.com}
 
 \textbf{\large \\ Learning Objectives:} \\
 1. Being comfortable using \textbf{Python} to perform a variety of Machine Learning procedures. \\
